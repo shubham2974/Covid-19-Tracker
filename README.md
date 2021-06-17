@@ -20,24 +20,31 @@ Covid-19 Tracker project provides:
     5) Line chart to analyze the per-day Cases, Recoveries, and Deaths around the globe
     6) Fully responsive, can be accessed in both android and web formats
 
-Deployed on: https://covid-19-tracker-7c1f6.web.app/
+Deployed on: 
+    
+    https://covid-19-tracker-7c1f6.web.app/
 
 Framework Used: React 
 Api Used: 
 
-   1) Disease.sh: This API is used to fetch the daily live cases, Recoveries, and Deaths of all countries around the globe
-      URL: https://covid-19-tracker-7c1f6.web.app/
-      this is a free and easy-to-use beginner-friendly API with a variety of data formats available.
+    1)Disease.sh: This API is used to fetch the daily live cases, Recoveries, and Deaths of all countries around the globe
+     URL: https://covid-19-tracker-7c1f6.web.app/
+     this is a free and easy-to-use beginner-friendly API with a variety of data formats available.
       
-      
-   2)OpenStreetMap: This is used to facilitate the web app with an additional feature to visualize the live covid cases
+    2)OpenStreetMap: This is used to facilitate the web app with an additional feature to visualize the live covid cases
      by providing the facility to users to easily understand the intensity of cases in a country.
      url:https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
      
      In React npm, provides the facility to access this API using a package namely react-leaflet, leaflet
      and hence these are the two main dependencies of the project.
     
-Packages installed: Material UI, React-leaflet, leaflet, firebase, numeral, React-chart-js2
+Packages installed: 
+      
+      Material UI, React-leaflet, leaflet, firebase, numeral, React-chart-js2
 
-Requirements: Basic knowledge of React and node js as it involves an active interaction between the two, 
-Must to have : HTML, CSS , Javascript intenmidiate understanding.
+Requirements:
+
+    Basic knowledge of React and node js as it involves an active interaction between the two, 
+Must to have :
+
+    HTML, CSS , Javascript intenmidiate understanding.
