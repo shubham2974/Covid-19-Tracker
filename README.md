@@ -27,13 +27,16 @@ Deployed on:
 Framework Used: React 
 Api Used: 
 
-    1)Disease.sh: This API is used to fetch the daily live cases, Recoveries, and Deaths of all countries around the globe
+    1)Disease.sh: This API is used to fetch the daily live cases, Recoveries, and Deaths of all countries around the globe.
+     This is a free and easy-to-use beginner-friendly API with a variety of data formats available.
+     
      URL: https://covid-19-tracker-7c1f6.web.app/
-     this is a free and easy-to-use beginner-friendly API with a variety of data formats available.
+     
       
     2)OpenStreetMap: This is used to facilitate the web app with an additional feature to visualize the live covid cases
      by providing the facility to users to easily understand the intensity of cases in a country.
-     url:https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+     
+     URL:https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
      
      In React npm, provides the facility to access this API using a package namely react-leaflet, leaflet
      and hence these are the two main dependencies of the project.
@@ -45,6 +48,6 @@ Packages installed:
 Requirements:
 
     Basic knowledge of React and node js as it involves an active interaction between the two, 
-Must to have :
+Must have:
 
-    HTML, CSS , Javascript intenmidiate understanding.
+    HTML, CSS, Javascript intermediate understanding.
