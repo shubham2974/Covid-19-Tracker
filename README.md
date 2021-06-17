@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Covid-19 Live Cases Tracker, fetches the live covid Cases, Recoveries and Deaths around the globe.
+This web-app reduces the amount of extensive time invested by user to search and analyise the daily live cases of several countries,
+by providing all necessary information with line chart analysis at one place. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a beginner friendly project, build to strenghten the core concepts of React framework, nodejs, and mainly working with API.
+Working on this project help me figure out how to:
+    1) install packages using npm
+    2) use MaterialUI components
+    3) work with API, their fetching, manipulation
+    4) to deploy a project using google firebase.
 
-## Available Scripts
 
-In the project directory, you can run:
+Covid-19 Tracker project provides: 
+    1) Live covid Cases, Recoveries and Deaths of all countries with clickable tabs,
+    2) A dropdown menu to facilitate user to select a specific country,
+    3) Map with live Cases with intesity mark, interact with user inputs and display outputs
+    4) Table of countries with live total cases, sorted in descending order of cases
+    5) Line chart to analyise the per-day Cases, Recoveries and Deaths around the globe
+    6) Fully responsive, can be accessed in both android and web formats
 
-### `npm start`
+Deployed on : https://covid-19-tracker-7c1f6.web.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Framework Used: React 
+Api Used: 
+   1) Disease.sh: This api is used to fetch the daily live cases , Recoveries and Deaths of all countries around the globe
+      url: https://covid-19-tracker-7c1f6.web.app/
+      this is a free and easy to use beginner friendly api with a variety of data formats availaible.
+   
+   2)OpenStreetMap: This is used to facilitate the web-app with an additional feature to visualize the live covid cases by providing the 
+     facility to user to easily understand the intensity of cases in a country.
+     url:https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+     
+     In React npm, provides the facility to access this api using a package namely react-leaflet, leaflet
+     and hence these are the two main dependencies of project.
+    
+Packages installed: Material UI, React-leaflet, leaflet, firebase, numeral, React-chart-js2
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Requriments: Basic knoweledge of React and node js as it involves an active interaction between the two, 
+Must to have : HTML, CSS , Javascript intenmidiate understanding.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    
