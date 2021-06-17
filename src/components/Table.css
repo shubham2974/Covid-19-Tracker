@@ -1,0 +1,28 @@
+.table{
+    margin-top:20px;
+    overflow:scroll;
+    height:400px;
+    color:grey;
+    margin-bottom: 30px;
+}
+.table::-webkit-scrollbar {
+    display: none;
+}
+.table tr{
+    display:flex;
+    justify-content: space-between;
+}
+.table td{
+    padding:0.5rem;
+}
+.table tr:nth-of-type(odd){
+    background-color:#f3f2f8;
+}
+hr{
+    background-color: gray;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.Linegraph{
+    margin-top:8px;
+}
