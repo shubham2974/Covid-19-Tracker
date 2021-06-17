@@ -4,6 +4,7 @@ by providing all necessary information with line chart analysis in one place.
 
 This is a beginner-friendly project, build to strengthen the core concepts of React framework, nodejs, and mainly working with API.
 Working on this project help me figure out how to:
+
     1) install packages using npm
     2) use MaterialUI components
     3) work with API, their fetching, manipulation
@@ -11,6 +12,7 @@ Working on this project help me figure out how to:
 
 
 Covid-19 Tracker project provides: 
+
     1) Live covid Cases, Recoveries and Deaths of all countries with clickable tabs,
     2) A dropdown menu to facilitate user to select a specific country,
     3) Map with live Cases with intensity mark, interact with user inputs, and display outputs
@@ -22,10 +24,12 @@ Deployed on: https://covid-19-tracker-7c1f6.web.app/
 
 Framework Used: React 
 Api Used: 
+
    1) Disease.sh: This API is used to fetch the daily live cases, Recoveries, and Deaths of all countries around the globe
       URL: https://covid-19-tracker-7c1f6.web.app/
       this is a free and easy-to-use beginner-friendly API with a variety of data formats available.
-   
+      
+      
    2)OpenStreetMap: This is used to facilitate the web app with an additional feature to visualize the live covid cases
      by providing the facility to users to easily understand the intensity of cases in a country.
      url:https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
